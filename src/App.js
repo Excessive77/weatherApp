@@ -36,14 +36,14 @@ function App() {
       
       
     } catch (error) {
-      console.error(error);
+      console.error(error);  
     }
     }
   
 
     useEffect(() => {
-      getWeather(latitude, longitude)
-    }, [latitude, longitude])
+      getWeather(latitude, longitude);
+    });
     
 
     //Función para generar la fecha actual
