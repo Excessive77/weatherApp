@@ -48,6 +48,7 @@ body {
   margin: 30px auto;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
+  display: flex;
 
   padding: 15px 25px;
 
@@ -58,6 +59,11 @@ body {
   text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
   text-align: center;
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.temp {
+  align-items: center;
+  justify-content: center;
 }
 
 .weather-box .weather {
